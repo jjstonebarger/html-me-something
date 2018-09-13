@@ -1,0 +1,68 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 370px;
+    width: 30%;
+    border: .1rem solid blue;
+    align-content: center;
+    
+  }
+  
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: italic bolder;
+    font-size: 16px;
+    padding-bottom: 20px;
+
+  }
+  
+  #heading {
+    color: white;
+    text-align: center;
+    text-shadow: .1rem .1rem #00ff55;
+    border: red;
+    font-family: 'Aclonica';
+    font-size: 45px;
+    font-style: normal;
+    background-color: black;
+  }
+  
+  #sub-heading {
+    color: white;
+    text-align: center;
+    text-shadow: .1rem .1rem green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    background-color: #5c00e6;
+  }
+
+  
+  .bottom p {
+    padding-bottom: 170px;
+
+  }
+ 
+  
+  
+  /* remove default underline */
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+      color: blue;
+  }
+  
+  footer {
+    color: white;
+    text-align: center;
+    font-family: Courier;
+    font-size: 14px;
+    background-color: blue;
+  }
