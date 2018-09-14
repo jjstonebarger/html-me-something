@@ -1,15 +1,26 @@
+body {
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  height: 100vh;
+}
+
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 370px;
     width: 30%;
-    border: .1rem solid blue;
+    border: .1rem solid greenyellow;
     align-content: center;
     
   }
+
   
   p {
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: italic bolder;
     font-size: 16px;
@@ -27,6 +38,11 @@ img {
     font-style: normal;
     background-color: black;
   }
+
+h3 {
+  color: white;
+  
+  }
   
   #sub-heading {
     color: white;
@@ -34,7 +50,7 @@ img {
     text-shadow: .1rem .1rem green;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
-    background-color: #5c00e6;
+    background-color: black;
   }
 
   
@@ -47,6 +63,7 @@ img {
   
   /* remove default underline */
   a:link {
+    color: greenyellow;
     text-decoration: none;
   }
   
@@ -56,7 +73,7 @@ img {
   
   /* mouse over link */
   a:hover {
-      color: blue;
+      color: greenyellow;
   }
   
   footer {
@@ -64,5 +81,5 @@ img {
     text-align: center;
     font-family: Courier;
     font-size: 14px;
-    background-color: blue;
+    background-color: black;
   }
